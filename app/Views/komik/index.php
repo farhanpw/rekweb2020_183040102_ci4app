@@ -23,7 +23,7 @@
                             <td><?= $k['judul'] ?>o</td>
                             <td>
 
-                                <a href="" class="btn btn-succes">Detail</a>
+                                <a href="/komik/<?= $k['slug']; ?>" class="btn btn-success">Detail</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
